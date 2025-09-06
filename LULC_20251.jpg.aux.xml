@@ -1,0 +1,167 @@
+<PAMDataset>
+  <SRS>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Mercator_1SP"],PARAMETER["central_meridian",0],PARAMETER["scale_factor",1],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["X",EAST],AXIS["Y",NORTH],EXTENSION["PROJ4","+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"],AUTHORITY["EPSG","3857"]]</SRS>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <NoDataValue>2.55000000000000E+02</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>12.5</HistMax>
+        <BucketCount>13</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>69|2817|2631|71|4909|200174|8512|1478282|3674|36|7009|786528|7710</HistCounts>
+      </HistItem>
+    </Histograms>
+    <GDALRasterAttributeTable>
+      <FieldDefn index="0">
+        <Name>OBJECTID</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="1">
+        <Name>Value</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="2">
+        <Name>ClassName</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="3">
+        <Name>Red</Name>
+        <Type>0</Type>
+        <Usage>6</Usage>
+      </FieldDefn>
+      <FieldDefn index="4">
+        <Name>Green</Name>
+        <Type>0</Type>
+        <Usage>7</Usage>
+      </FieldDefn>
+      <FieldDefn index="5">
+        <Name>Blue</Name>
+        <Type>0</Type>
+        <Usage>8</Usage>
+      </FieldDefn>
+      <FieldDefn index="6">
+        <Name>UlcPopupText</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="7">
+        <Name>PopupText</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="8">
+        <Name>Description</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="9">
+        <Name>Examples</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="10">
+        <Name>Count</Name>
+        <Type>1</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>1</F>
+        <F>1</F>
+        <F>Water</F>
+        <F>26</F>
+        <F>91</F>
+        <F>171</F>
+        <F>Water</F>
+        <F>water</F>
+        <F>Areas where water was predominantly present throughout the year; may not cover areas with sporadic or ephemeral water; contains little to no sparse vegetation, no rock outcrop nor built up features like docks.</F>
+        <F>Rivers, ponds, lakes, oceans, flooded salt plains.</F>
+        <F>2768</F>
+      </Row>
+      <Row index="1">
+        <F>2</F>
+        <F>2</F>
+        <F>Trees</F>
+        <F>53</F>
+        <F>130</F>
+        <F>33</F>
+        <F>Trees</F>
+        <F>trees</F>
+        <F>Any significant clustering of tall (~15-m or higher) dense vegetation, typically with a closed or dense canopy.</F>
+        <F>Wooded vegetation,  clusters of dense tall vegetation within savannas, plantations, swamp or mangroves (dense/tall vegetation with ephemeral water or canopy too thick to detect water underneath).</F>
+        <F>2820</F>
+      </Row>
+      <Row index="2">
+        <F>4</F>
+        <F>5</F>
+        <F>Crops</F>
+        <F>255</F>
+        <F>219</F>
+        <F>92</F>
+        <F>Crops</F>
+        <F>crops</F>
+        <F>Human planted/plotted cereals, grasses, and crops not at tree height.</F>
+        <F>Corn, wheat, soy, fallow plots of structured land.</F>
+        <F>207675</F>
+      </Row>
+      <Row index="3">
+        <F>5</F>
+        <F>7</F>
+        <F>Built Area</F>
+        <F>237</F>
+        <F>2</F>
+        <F>42</F>
+        <F>Built Area</F>
+        <F>built area</F>
+        <F>Human made structures; major road and rail networks; large homogenous impervious surfaces including parking structures, office buildings and residential housing.</F>
+        <F>Houses, dense villages / towns / cities, paved roads, asphalt.</F>
+        <F>1486619</F>
+      </Row>
+      <Row index="4">
+        <F>6</F>
+        <F>8</F>
+        <F>Bare Ground</F>
+        <F>237</F>
+        <F>233</F>
+        <F>228</F>
+        <F>Bare Ground</F>
+        <F>bare ground</F>
+        <F>Areas of rock or soil with very sparse to no vegetation for the entire year; large areas of sand and deserts with no to little vegetation.</F>
+        <F>Exposed rock or soil, desert and sand dunes, dry salt flats/pans, dried lake beds, mines.</F>
+        <F>1293</F>
+      </Row>
+      <Row index="5">
+        <F>9</F>
+        <F>11</F>
+        <F>Rangeland</F>
+        <F>239</F>
+        <F>207</F>
+        <F>168</F>
+        <F>Rangeland</F>
+        <F>rangeland</F>
+        <F>Open areas covered in homogenous grasses with little to no taller vegetation; wild cereals and grasses, Mix of small clusters of plants or single plants dispersed on a landscape that shows exposed soil or rock; scrub-filled clearings within forests that are clearly not taller than trees.</F>
+        <F>Natural meadows and fields with sparse to no tree cover, open savanna with few to no trees, parks/golf courses/lawns, pastures, moderate to sparse cover of bushes, shrubs and tufts of grass, savannas with very sparse grasses, trees or other plants.</F>
+        <F>801247</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_COVARIANCES">4.330232840394904</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">12</MDI>
+      <MDI key="STATISTICS_MEAN">8.1009430064157</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">2.0809211518928</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
