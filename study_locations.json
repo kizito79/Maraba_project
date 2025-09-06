@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[7.633333,9.012222]},"properties":{"osm_id":"501494534","code":1002,"fclass":"town","population":0,"name":"Ado"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[7.673611,9.005]},"properties":{"osm_id":"501527955","code":1002,"fclass":"town","population":0,"name":"Masaka"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[7.6030956,9.0247289]},"properties":{"osm_id":"","code":0,"fclass":"","population":0,"name":"Maraba"}}
+]}
